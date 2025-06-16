@@ -14,7 +14,7 @@ const studySpots = [
   {
     id: 1,
     name: 'Dana Porter Library',
-    coordinates: [-80.5418, 43.4691],
+    coordinates: [-80.5418, 43.4691] as [number, number],
     occupancy: 75,
     amenities: ['WiFi', 'Power Outlets', 'Quiet Study'],
     hours: '24/7',
@@ -23,7 +23,7 @@ const studySpots = [
   {
     id: 2,
     name: 'Student Life Centre',
-    coordinates: [-80.5449, 43.4722],
+    coordinates: [-80.5449, 43.4722] as [number, number],
     occupancy: 60,
     amenities: ['WiFi', 'Food Court', 'Group Study'],
     hours: '6:00 AM - 2:00 AM',
@@ -32,7 +32,7 @@ const studySpots = [
   {
     id: 3,
     name: 'DC Library',
-    coordinates: [-80.5427, 43.4729],
+    coordinates: [-80.5427, 43.4729] as [number, number],
     occupancy: 85,
     amenities: ['WiFi', 'Power Outlets', 'Computer Lab'],
     hours: '24/7',
